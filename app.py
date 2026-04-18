@@ -8,13 +8,13 @@ def chatbot_response(message):
     message = message.lower().strip()
 
     if "hello" in message or "hi" in message or "hey" in message:
-        return "Hi 👋"
+        return "Hi "
     elif "how are you" in message:
-        return "I'm fine 😊"
+        return "I'm fine "
     elif "bye" in message:
-        return "Goodbye 👋"
+        return "Goodbye "
     elif "name" in message:
-        return "I am Chat-Bot 🤖"
+        return "I am Chat-Bot "
     else:
         return "I didn't understand."
 
